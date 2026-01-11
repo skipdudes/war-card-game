@@ -5,6 +5,7 @@ The project focuses on clean game logic, correct card handling, and memory-safe 
 [![language C17][shield-c]](https://github.com/skipdudes/war-card-game)
 [![build CMake][shield-cmake]](https://github.com/skipdudes/war-card-game)
 [![platform Windows Linux macOS][shield-platform]](https://github.com/skipdudes/war-card-game)
+[![release 1.0.0][shield-release]](https://github.com/skipdudes/war-card-game/releases)
 
 ## 🛠 Requirements
 - **Language:** C (C17)
@@ -45,3 +46,4 @@ Copyright &copy; 2019 Marcin Chętnik
 [shield-c]: https://img.shields.io/badge/language-C17-blue.svg
 [shield-cmake]: https://img.shields.io/badge/build-CMake-green.svg
 [shield-platform]: https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg
+[shield-release]: https://img.shields.io/badge/release-1.0.0-blueviolet.svg
