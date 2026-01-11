@@ -1,0 +1,6 @@
+[Oo]ut/
+[Bb]uild/
+[Bb]in/
+/.vs
+.idea/
+CMakeSettings.json
