@@ -2,15 +2,17 @@
 A simple console-based implementation of the classic card game **War**, written in C.
 The project focuses on clean game logic, correct card handling, and memory-safe code.
 
-[![language C17][shield-c]](https://github.com/skipdudes/war-card-game)
+[![language C99][shield-c]](https://github.com/skipdudes/war-card-game)
 [![build CMake][shield-cmake]](https://github.com/skipdudes/war-card-game)
 [![platform Windows Linux macOS][shield-platform]](https://github.com/skipdudes/war-card-game)
 [![release 1.0.0][shield-release]](https://github.com/skipdudes/war-card-game/releases)
 
 ## 🛠 Requirements
-- **Language:** C (C17)
-- **Build system:** CMake ≥ 3.21
-- **Compiler:** Any C17-compliant compiler (GCC, Clang, MSVC)
+- **Language:** C (C99)
+- **Build system:** CMake ≥ 3.10
+- **Compiler:** GCC, Clang, or MSVC
+> **Note for Windows:** The project requires a toolchain using the **Universal C Runtime (UCRT)** (e.g. MSVC or MinGW-w64 UCRT via MSYS2).
+> Older MinGW toolchains based on MSVCRT are not supported.
 
 ## ⚙️ Building
 Clone the repository and build the project using CMake:
@@ -43,7 +45,7 @@ This project is licensed under the [MIT](LICENSE) license.
 ## 👤 Author
 Copyright &copy; 2019 Marcin Chętnik
 
-[shield-c]: https://img.shields.io/badge/language-C17-blue.svg
+[shield-c]: https://img.shields.io/badge/language-C99-blue.svg
 [shield-cmake]: https://img.shields.io/badge/build-CMake-green.svg
 [shield-platform]: https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg
 [shield-release]: https://img.shields.io/badge/release-1.0.0-blueviolet.svg
